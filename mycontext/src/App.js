@@ -3,6 +3,8 @@ import React, {useContext} from 'react'
 import { createContext } from 'react';
 import "./App.css"
 
+
+
 //practice little bit about contextapi!!
 const manageAll  = createContext()
 
