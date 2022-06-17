@@ -6,6 +6,28 @@ import Thought from './teste';
  
 
 
+const salesman = createContext()
+
+
+const Another = () => {
+  const sall = useContext(salesman)
+  return(<>
+   <h1> Another {sall}</h1>
+  </>)
+}
+
+const Tired = () => {
+  const phase = 'Living here floripa, is beautiful'
+  return (<>
+      <salesman.Provider value={phase} >
+       <Another/>
+      </salesman.Provider>
+  </>)
+}
+
+
+
+
 //practice little bit about contextapi!!
 const manageAll  = createContext()
 
@@ -25,6 +47,7 @@ function App() {
       <div className="App">
         App
        <Other/>
+       <Tired/>
        </div>
       
     </manageAll.Provider>
