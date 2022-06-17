@@ -2,6 +2,7 @@
 import React, {useContext} from 'react'
 import { createContext } from 'react';
 import "./App.css"
+import Thought from './teste';
  
 
 
@@ -20,6 +21,7 @@ function App() {
   
   return (
     <manageAll.Provider value={another} >
+      <Thought/>
       <div className="App">
         App
        <Other/>
