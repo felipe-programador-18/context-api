@@ -17,9 +17,9 @@ const Other = () => {
 
 function App() {
   const another = "programmer Felipe 18"
-  const submire = 'programmer Floripe'
+  
   return (
-    <manageAll.Provider value={`${another} e ${submire}`} >
+    <manageAll.Provider value={another} >
       <div className="App">
         App
        <Other/>
