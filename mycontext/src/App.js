@@ -2,6 +2,8 @@
 import React, {useContext} from 'react'
 import { createContext } from 'react';
 import "./App.css"
+import CreateCode from './Content';
+import PractForm from './form';
 import Thought from './teste';
  
 
@@ -49,7 +51,8 @@ function App() {
        <Other/>
        <Tired/>
        </div>
-      
+       <CreateCode/>
+       <PractForm/>
     </manageAll.Provider>
   );
 }
