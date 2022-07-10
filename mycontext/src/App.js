@@ -6,6 +6,7 @@ import "./App.css"
 import ChangeState from './changestatesliff';
 import CreateCode from './Content';
 import PractForm from './form';
+
 import Sliff from './sliff';
 import Thought from './teste';
  
@@ -59,7 +60,11 @@ function App() {
   
   return (
     <manageAll.Provider value={another} >
+      
+     
+      
       <Thought/>
+  
       <div className="App">
         App
        <Other/>
